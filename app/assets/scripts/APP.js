@@ -6,4 +6,4 @@ import StickyHeader from './modules/StickyHeader';
 var mobileMenu = new MobileMenu();
 new RevealOnScroll ($(".feature-item"), "85%");
 new RevealOnScroll ($(".testimonials"), "60%");
-var stickHeader = new StickyHeader();
+var stickyHeader = new StickyHeader();
