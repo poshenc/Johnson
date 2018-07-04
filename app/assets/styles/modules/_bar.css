@@ -1,0 +1,26 @@
+	/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 25px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.Python {width: 70%; background-color: #4CAF50;} /* Green */
+.html {width: 60%; background-color: #4CAF50;} /* Green */
+.css {width: 65%; background-color: #2196F3;} /* Blue */
+.js {width: 60%; background-color: #f44336;} /* Red */
+.php {width: 50%; background-color: #808080;} /* Dark Grey */
+.English {width: 95%; background-color: #4CAF50;} /* Green */
+.Mandarin {width: 90%; background-color: #2196F3;} /* Blue */
+.Speed {width: 90%; background-color: #f44336;} /* Red */
+.Git {width: 70%; background-color: #808080;} /* Dark Grey */
+.SQL {width: 60%; background-color: #808080;} /* Dark Grey */
